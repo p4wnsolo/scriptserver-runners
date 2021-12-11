@@ -1,0 +1,9 @@
+{
+  "name": "Spiderfoot (Docker)",
+  "script_path": "docker run -p 5001:5001 -d spiderfoot",
+  "working_directory": "~/script-server/scripts/spiderfoot",
+  "description": "Launch spiderfoot web server using this command:\n\ndocker run -p 5001:5001 -d spiderfoot\n\nOfficial tutorial:  https://www.spiderfoot.net/a-simpler-way-to-get-spiderfoot-running-is-to-use-docker/\nVideo walkthrough of installing Spiderfoot in Docker: https://asciinema.org/a/165187\n\nAfter Spiderfoot is running, point your browser to http://127.0.0.1:5001/",
+  "group": "All In One OSINT Tools",
+  "output_format": "terminal",
+  "parameters": []
+}

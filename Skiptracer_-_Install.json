@@ -1,0 +1,8 @@
+{
+  "name": "Skiptracer",
+  "script_path": "docker run -it xshuden/skiptracer:latest",
+  "working_directory": "~/script-server/scripts/",
+  "description": "Skiptracer doesn't usually work on the first search/scan, so try it multiple times on a target before giving up.  For example, when searching a PLATE, first search for the Plate - if that doesn't go, try \"All\", then try Plate again.",
+  "group": "Vehicle",
+  "parameters": []
+}

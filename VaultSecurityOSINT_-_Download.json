@@ -1,0 +1,8 @@
+{
+  "name": "VaultSecurityOSINT - Download",
+  "script_path": "docker pull vaultsecurity/osint",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

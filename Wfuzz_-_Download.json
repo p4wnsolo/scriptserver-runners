@@ -1,0 +1,8 @@
+{
+  "name": "Wfuzz - Download",
+  "script_path": "git clone https://github.com/xmendez/wfuzz.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

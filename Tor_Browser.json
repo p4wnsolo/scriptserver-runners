@@ -1,0 +1,8 @@
+{
+  "name": "Tor Browser",
+  "script_path": "torbrowser-launcher",
+  "description": "Cannot be run as root or launched by Script-Server if SS is running as root.\n\nCommand:\n\ntorbrowser-launcher",
+  "group": "Tor",
+  "output_format": "terminal",
+  "parameters": []
+}

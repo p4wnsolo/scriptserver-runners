@@ -1,0 +1,7 @@
+{
+  "name": "Wifite2-docker - Install",
+  "script_path": "docker run --privileged --net=host -it txt3rob/wifite2-docker",
+  "working_directory": "~/script-server/scripts/wifite2-docker",
+  "group": "Install",
+  "parameters": []
+}

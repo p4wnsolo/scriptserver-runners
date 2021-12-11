@@ -1,0 +1,22 @@
+{
+  "name": "Trape",
+  "script_path": "python3 trape.py",
+  "working_directory": "~/script-server/scripts/trape",
+  "description": "https://github.com/jofpin/trape",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "URL",
+      "param": "--url",
+      "type": "text",
+      "default": "http://example.com"
+    },
+    {
+      "name": "Port",
+      "param": " --port",
+      "type": "int",
+      "default": "8080"
+    }
+  ]
+}

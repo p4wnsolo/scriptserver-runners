@@ -1,0 +1,33 @@
+{
+  "name": "theHarvester",
+  "script_path": "docker run -it whiteoaksecurity/docker-theharvester:latest",
+  "working_directory": "~/script-server/scripts/",
+  "description": "Multi-threaded version of theHarvester.  Gather emails. | <a href='http://autosint.rf.gd/theharvester/'>Autosint</a> | <a href='https://github.com/opsdisk/theHarvester/wiki'>Wiki</a> | <a href='https://github.com/opsdisk/theHarvester'>Github</a> | <a href='http://www.edge-security.com/'>Web</a><br><br>\nChoose sources (baidu, bing, bingapi, dogpile, google, googleCSE, googleplus, google-profiles, linkedin, pgp, twitter, vhost, yahoo, all)\n<br>",
+  "group": "Email",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Domain",
+      "required": true,
+      "param": "-d",
+      "type": "text",
+      "default": "example.com",
+      "description": "Enter the domain to extract email addresses from",
+      "max_length": "255"
+    },
+    {
+      "name": "Where to search",
+      "required": true,
+      "param": "-b",
+      "type": "editable_list",
+      "default": "all",
+      "description": "Choose sources (baidu, bing, bingapi, dogpile, google, googleCSE, googleplus, google-profiles, linkedin, pgp, twitter, vhost, yahoo, all)"
+    },
+    {
+      "name": "Limit",
+      "param": "-l",
+      "type": "int",
+      "default": "200"
+    }
+  ]
+}

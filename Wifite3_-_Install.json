@@ -1,0 +1,8 @@
+{
+  "name": "Wifite3 - Install",
+  "script_path": "python setup.py install",
+  "working_directory": "~/script-server/scripts/wifite3",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

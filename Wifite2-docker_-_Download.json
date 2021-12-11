@@ -1,0 +1,8 @@
+{
+  "name": "Wifite2-docker - Download",
+  "script_path": "docker pull txt3rob/wifite2-docker",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Multiple words",
+  "script_path": "'pwd' 1 'whoami'",
+  "working_directory": "./samples/scripts/",
+  "description": "Executes a complex command specified as a scripts path and prints all incoming parameters",
+  "group": "Demo",
+  "parameters": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "TorGhost",
+  "script_path": "sudo python3 torghost.py",
+  "working_directory": "/home/kali/script-server/scripts/torghost",
+  "description": "Run as Root:\n\nsudo python3 torghost.py",
+  "group": "Tor",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Command",
+      "type": "list",
+      "default": "--start",
+      "values": [
+        "--start",
+        "--stop",
+        "--switch",
+        "--help"
+      ]
+    }
+  ]
+}

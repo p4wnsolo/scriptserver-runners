@@ -1,0 +1,7 @@
+{
+  "name": "Snapd",
+  "script_path": "sudo systemctl start snapd",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

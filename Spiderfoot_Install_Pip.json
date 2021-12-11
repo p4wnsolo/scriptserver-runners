@@ -1,0 +1,8 @@
+{
+  "name": "Spiderfoot - Install with pip3",
+  "script_path": "pip3 install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/spiderfoot",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

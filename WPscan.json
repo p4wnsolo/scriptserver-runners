@@ -1,0 +1,16 @@
+{
+  "name": "WPscan",
+  "script_path": "wpscan",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "URL",
+      "required": true,
+      "param": "--url",
+      "type": "text",
+      "default": "https://example.com",
+      "max_length": "255"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "theHarvester - Download",
+  "script_path": "docker pull whiteoaksecurity/docker-theharvester",
+  "working_directory": "~/script-server/scripts/",
+  "description": "Dockerized version of theHarvester by whiteoaksecurity.  Also see github.com/brentclark/docker-theHarvester",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

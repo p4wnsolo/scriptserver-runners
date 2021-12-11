@@ -1,0 +1,8 @@
+{
+  "name": "tulpar - Install",
+  "script_path": "docker build -t tulpar .",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/tulpar",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

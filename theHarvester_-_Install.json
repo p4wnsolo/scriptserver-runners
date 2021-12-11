@@ -1,0 +1,9 @@
+{
+  "name": "theHarvester - Install (May be unneeded)",
+  "script_path": "docker run whiteoaksecurity/docker-theharvester:latest",
+  "working_directory": "~/script-server/scripts/",
+  "description": "Try just running theHarvester without running this Install script",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

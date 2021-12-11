@@ -1,0 +1,9 @@
+{
+  "name": "sn0int - Install (with Brew)",
+  "script_path": "brew install sn0int",
+  "working_directory": "~/script-server/scripts",
+  "description": "Requires Homebrew\n\nIf Homebrew isn't installed, go install it now.",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

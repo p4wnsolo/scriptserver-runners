@@ -1,0 +1,8 @@
+{
+  "name": "Spiderfoot2 - Download",
+  "script_path": "wget https://raw.githubusercontent.com/treemo/docker-spiderfoot/master/docker-compose.yml",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sherlock",
+  "script_path": "python3 sherlock.py",
+  "working_directory": "~/script-server/scripts/sherlock/sherlock",
+  "description": "Search social accounts by email address",
+  "group": "Social",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Usernames",
+      "required": true,
+      "type": "text",
+      "default": "johndoe",
+      "description": "Username to search",
+      "max_length": "50"
+    },
+    {
+      "name": "Verbose?",
+      "param": "-v",
+      "no_value": true,
+      "description": "Enable verbose logging / output"
+    },
+    {
+      "name": "Timeout (in Seconds)",
+      "param": "--timeout",
+      "type": "int",
+      "default": "10",
+      "description": "Enter timeout in seconds",
+      "min": "1",
+      "max": "99"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Whoami",
+  "script_path": "ls&& pwd",
+  "description": "Shows who the currently logged in user is",
+  "group": "System",
+  "parameters": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "WhatBreach",
+  "script_path": "python whatbreach.py",
+  "working_directory": "~/script-server/scripts/WhatBreach",
+  "group": "Email",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Email",
+      "param": "-e",
+      "type": "text",
+      "default": "someone@example.com"
+    },
+    {
+      "name": "Use public databases",
+      "param": "-d",
+      "no_value": true
+    }
+  ]
+}

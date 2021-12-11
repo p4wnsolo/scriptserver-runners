@@ -1,0 +1,8 @@
+{
+  "name": "Wfuzz - Install",
+  "script_path": "docker build -t wfuzz .",
+  "working_directory": "~/script-server/scripts/wfuzz",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

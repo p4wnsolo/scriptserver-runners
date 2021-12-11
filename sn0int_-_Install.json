@@ -1,0 +1,8 @@
+{
+  "name": "sn0int - Install",
+  "script_path": "pacman -S sn0int",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

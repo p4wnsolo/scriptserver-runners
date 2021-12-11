@@ -1,0 +1,7 @@
+{
+  "name": "Spiderfoot2",
+  "script_path": "docker-compose up",
+  "working_directory": "~/script-server/scripts",
+  "group": "All In One OSINT Tools",
+  "parameters": []
+}

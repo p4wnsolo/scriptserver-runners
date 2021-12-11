@@ -1,0 +1,7 @@
+{
+  "name": "Trape - Download",
+  "script_path": "git clone https://github.com/jofpin/trape.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "parameters": []
+}

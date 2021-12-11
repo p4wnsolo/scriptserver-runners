@@ -1,0 +1,39 @@
+{
+  "name": "Social-analyzer",
+  "script_path": "python3 app.py",
+  "working_directory": "~/script-server/scripts/social-analyzer",
+  "description": "https://github.com/qeeqbox/social-analyzer",
+  "group": "Social",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Username IN QUOTES",
+      "param": "--username",
+      "same_arg_param": false,
+      "type": "text",
+      "no_value": false,
+      "default": "\"justinbieber\""
+    },
+    {
+      "name": "Metadata",
+      "param": "--metadata",
+      "type": "text",
+      "no_value": true
+    },
+    {
+      "name": "Top",
+      "param": "--top",
+      "type": "int",
+      "no_value": false,
+      "default": "10",
+      "min": "0",
+      "max": "10000"
+    },
+    {
+      "name": "Extract info",
+      "param": "--extract",
+      "type": "text",
+      "no_value": true
+    }
+  ]
+}

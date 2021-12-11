@@ -1,0 +1,8 @@
+{
+  "name": "Wifite",
+  "script_path": "docker run -it --rm --net='host' --privileged afsmnghr/wifite wifite",
+  "working_directory": "~/script-server/scripts",
+  "group": "WiFi",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Spiderfoot - Install with Docker",
+  "script_path": "docker build -t spiderfoot .",
+  "working_directory": "~/script-server/scripts/spiderfoot",
+  "description": "After the Spiderfoot install finishes, Spiderfoot should launch automatically.  Test it by going to 127.0.0.1:5001 in your web browser after install is finished. ",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

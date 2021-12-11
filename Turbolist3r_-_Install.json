@@ -1,0 +1,7 @@
+{
+  "name": "Turbolist3r - Install",
+  "script_path": "pip3 install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/Turbolist3r",
+  "group": "Install",
+  "parameters": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "v3n0m",
+  "script_path": "docker run -it v3n0m",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/v3n0m",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": []
+}

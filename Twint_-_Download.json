@@ -1,0 +1,8 @@
+{
+  "name": "Twint - Download",
+  "script_path": "git clone --depth=1 https://github.com/twintproject/twint.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

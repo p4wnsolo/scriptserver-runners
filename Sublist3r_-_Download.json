@@ -1,0 +1,7 @@
+{
+  "name": "Sublist3r - Download",
+  "script_path": "git clone https://github.com/aboul3la/Sublist3r.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "parameters": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Snapd - Install",
+  "script_path": "sudo mousepad /etc/environment",
+  "description": "Edit the file /etc/environmanet and add /snap/bin to the end of the PATH value, using colon (:) between values\n\nThen enter \"source /etc/environment\" to load the new PATH and make Snap-installed programs accessible via command-line.",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

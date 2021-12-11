@@ -1,0 +1,22 @@
+{
+  "name": "Wfuzz",
+  "script_path": "docker run -v ~/script-server/scripts/wfuzz/wordlist:/wordlist/ -it wfuzz wfuzz",
+  "working_directory": "~/script-server/scripts/wfuzz",
+  "description": "To see wordlists, go here:  https://github.com/gwen001/wfuzz/tree/master/wordlist\n\nSuccessful command looks like this:\n\ndocker run -v ~/script-server/scripts/wordlists:/wordlists/ -it wfuzz wfuzz -w wordlists/subs.txt http://testphp.vulnweb.com/FUZZ",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Wordlist path and URL",
+      "param": "-w",
+      "type": "text",
+      "default": "wordlist/general/common.txt"
+    },
+    {
+      "name": "URL",
+      "same_arg_param": true,
+      "type": "text",
+      "default": "http://testphp.vulnweb.com/FUZZ"
+    }
+  ]
+}

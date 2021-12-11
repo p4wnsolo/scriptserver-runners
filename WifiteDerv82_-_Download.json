@@ -1,0 +1,8 @@
+{
+  "name": "WifiteDerv82 - Download",
+  "script_path": "git clone https://github.com/derv82/wifite2.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

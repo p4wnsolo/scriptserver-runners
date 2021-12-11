@@ -1,0 +1,7 @@
+{
+  "name": "Snapd - Download",
+  "script_path": "sudo apt install snapd",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

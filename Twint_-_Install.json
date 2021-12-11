@@ -1,0 +1,8 @@
+{
+  "name": "Twint - Install",
+  "script_path": "docker build -t twint .",
+  "working_directory": "~/script-server/scripts/twint",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

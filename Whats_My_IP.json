@@ -1,0 +1,20 @@
+{
+  "name": "Whats My IP",
+  "script_path": "curl",
+  "description": "Command:\n\ncurl URLGoesHere",
+  "group": "Tor",
+  "output_format": "html",
+  "parameters": [
+    {
+      "name": "URL",
+      "same_arg_param": false,
+      "type": "list",
+      "default": "icanhazip.com",
+      "values": [
+        "icanhazip.com",
+        "ifconfig.me",
+        "ipecho.net"
+      ]
+    }
+  ]
+}

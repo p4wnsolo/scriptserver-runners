@@ -1,0 +1,45 @@
+{
+  "name": "Demo",
+  "script_path": "demo",
+  "group": "Demo",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "list",
+      "type": "list"
+    },
+    {
+      "name": "multiselect",
+      "type": "multiselect",
+      "multiselect_argument_type": "argument_per_value"
+    },
+    {
+      "name": "editable list",
+      "type": "editable_list"
+    },
+    {
+      "name": "file",
+      "type": "file_upload"
+    },
+    {
+      "name": "server DIR",
+      "type": "server_file",
+      "file_dir": "/",
+      "file_recursive": true,
+      "file_type": "dir"
+    },
+    {
+      "name": "server FILE",
+      "type": "server_file",
+      "file_dir": "/",
+      "file_recursive": true,
+      "file_type": "file"
+    },
+    {
+      "name": "server ANY recursive",
+      "type": "server_file",
+      "file_dir": "/",
+      "file_recursive": true
+    }
+  ]
+}

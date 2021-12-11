@@ -1,0 +1,8 @@
+{
+  "name": "Tor Browser - Install",
+  "script_path": "sudo apt install -y tor torbrowser-launcher",
+  "description": "Requires SuperUser privileges to install.\nTo start Script-Server as SuperUser, shut down Script-Server and re-run with \"sudo python3 launcher.py\"\n\nCommand to install Tor Browser:\n\nsudo apt install -y tor torbrowser-launcher\n",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

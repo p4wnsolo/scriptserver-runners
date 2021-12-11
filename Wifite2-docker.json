@@ -1,0 +1,6 @@
+{
+  "name": "Wifite2-docker",
+  "script_path": "docker run --privileged --net=host -it txt3rob/wifite2-docker",
+  "group": "WiFi",
+  "parameters": []
+}

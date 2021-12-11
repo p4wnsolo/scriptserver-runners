@@ -1,0 +1,8 @@
+{
+  "name": "Social-analyzer - Install",
+  "script_path": "pip3 install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/social-analyzer",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

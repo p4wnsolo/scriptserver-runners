@@ -1,0 +1,7 @@
+{
+  "name": "WifiteDerv82",
+  "script_path": "sudo python3 Wifite.py",
+  "working_directory": "~/script-server/scripts/wifite2",
+  "group": "WiFi",
+  "parameters": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "TorGhost - Download",
+  "script_path": "git clone https://github.com/susmithHCK/torghost.git",
+  "working_directory": "~/script-sever/scripts",
+  "description": "Command:\n\ngit clone https://github.com/susmithHCK/torghost.git",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

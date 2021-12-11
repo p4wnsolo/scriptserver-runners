@@ -1,0 +1,48 @@
+{
+  "name": "Twint",
+  "script_path": "docker run -it twint twint",
+  "working_directory": "~/script-server/scripts/twint",
+  "group": "Social",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "User Lookup OR Search Tweets",
+      "required": true,
+      "type": "list",
+      "description": "Choose to look up a Twitter User OR search through Tweets (but not both at the same time)",
+      "values": [
+        "-u",
+        "-s"
+      ]
+    },
+    {
+      "name": "User Lookup",
+      "type": "text"
+    },
+    {
+      "name": "Search Tweets",
+      "same_arg_param": true,
+      "type": "text",
+      "description": "Wrap in quotes to search for a phrase (ex: \"my pw is\")"
+    },
+    {
+      "name": "Show tweets w/phone info",
+      "param": "--email",
+      "type": "text",
+      "no_value": true
+    },
+    {
+      "name": "Show tweets w/email info",
+      "param": "--email",
+      "type": "text",
+      "no_value": true
+    },
+    {
+      "name": "Search VERIFIED Only",
+      "param": "--verified",
+      "type": "text",
+      "no_value": true,
+      "description": "Show tweets from Verified users only"
+    }
+  ]
+}

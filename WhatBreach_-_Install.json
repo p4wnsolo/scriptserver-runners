@@ -1,0 +1,8 @@
+{
+  "name": "WhatBreach - Install",
+  "script_path": "pip install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/WhatBreach",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

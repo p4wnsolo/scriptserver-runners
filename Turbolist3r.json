@@ -1,0 +1,26 @@
+{
+  "name": "Turbolist3r",
+  "script_path": "python3 turbolist3r.py",
+  "working_directory": "~/script-server/scripts/Turbolist3r",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Verbose",
+      "param": "-v",
+      "no_value": true
+    },
+    {
+      "name": "Domain",
+      "param": "-d",
+      "type": "text",
+      "default": "example.com",
+      "max_length": "254"
+    },
+    {
+      "name": "DNS Analysis",
+      "param": "-a",
+      "no_value": true
+    }
+  ]
+}

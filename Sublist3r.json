@@ -1,0 +1,18 @@
+{
+  "name": "Subl1st3r",
+  "script_path": "python3 sublist3r.py",
+  "working_directory": "~/script-server/scripts/Sublist3r",
+  "description": "List subdomains",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Domain",
+      "required": true,
+      "param": "-d",
+      "type": "text",
+      "default": "example.com",
+      "max_length": "99"
+    }
+  ]
+}
