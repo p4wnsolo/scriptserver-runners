@@ -1,0 +1,25 @@
+{
+  "name": "HaveIBeenPwned",
+  "script_path": "docker run -it hibp",
+  "group": "Email",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Target Type (-l for Email)",
+      "type": "list",
+      "default": "-l",
+      "description": "Emails from List:\n-l = LIST of Emails (can be just 1 email)\n\nEmails from Webpage:\n-w URLGoesHere = WEBPAGE\n\nEmails from File:\n-f FilePathGoesHere\n",
+      "values": [
+        "-l",
+        "-w",
+        "-f"
+      ]
+    },
+    {
+      "name": "Target",
+      "type": "text",
+      "default": "someone@example.com",
+      "description": "Email / webpage / file path (select the corresponding Target Type first)"
+    }
+  ]
+}

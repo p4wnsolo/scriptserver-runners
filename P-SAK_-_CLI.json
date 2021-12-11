@@ -1,0 +1,8 @@
+{
+  "name": "P-SAK Bash CLI",
+  "script_path": "docker run -it psak bash",
+  "working_directory": "~/script-server/scripts/P-SAK",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": []
+}

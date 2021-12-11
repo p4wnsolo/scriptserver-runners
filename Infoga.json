@@ -1,0 +1,40 @@
+{
+  "name": "Infoga",
+  "script_path": "docker run -it --rm \"infoga:1\"",
+  "working_directory": "~/script-server/scripts/Infoga",
+  "group": "All In One OSINT Tools",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Email address",
+      "param": "-i",
+      "type": "text",
+      "max_length": "255"
+    },
+    {
+      "name": "Domain",
+      "param": "--domain",
+      "type": "text"
+    },
+    {
+      "name": "Source",
+      "param": "--source",
+      "type": "text",
+      "default": "all"
+    },
+    {
+      "name": "Breach",
+      "param": "--breach",
+      "no_value": true
+    },
+    {
+      "name": "Verbosity Level 1, 2, or 3",
+      "param": "-v",
+      "type": "int",
+      "default": "2",
+      "min": "0",
+      "max": "3",
+      "max_length": "5"
+    }
+  ]
+}

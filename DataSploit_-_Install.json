@@ -1,0 +1,8 @@
+{
+  "name": "DataSploit - Install",
+  "script_path": "pip3 install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/datasploit",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

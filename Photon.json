@@ -1,0 +1,75 @@
+{
+  "name": "Photon",
+  "script_path": "docker run -it --name photon -v \"~/script-server/scripts/Offensive-Dockerfiles/Photon/google.com\" photon:latest",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles",
+  "description": "Look up info about a domain",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Domain",
+      "required": false,
+      "param": "-u",
+      "type": "text",
+      "default": "example.com",
+      "max_length": "100"
+    },
+    {
+      "name": "Levels",
+      "param": "-l",
+      "type": "int",
+      "default": "2",
+      "description": "Number of levels to crawl",
+      "min": "0",
+      "max": "999"
+    },
+    {
+      "name": "Threads",
+      "param": "-t",
+      "type": "int",
+      "default": "2",
+      "min": "1",
+      "max": "99"
+    },
+    {
+      "name": "Verbose",
+      "param": "-v",
+      "no_value": true
+    },
+    {
+      "name": "Timeout in Seconds",
+      "param": "--timeout=",
+      "same_arg_param": true,
+      "type": "int",
+      "no_value": false,
+      "default": "5"
+    },
+    {
+      "name": "Clone website locally",
+      "param": "--clone",
+      "same_arg_param": false,
+      "no_value": true,
+      "description": "Clone the website"
+    },
+    {
+      "name": "DNS",
+      "param": "--dns",
+      "no_value": true
+    },
+    {
+      "name": "Get keys",
+      "param": "--keys",
+      "no_value": true
+    },
+    {
+      "name": "Use WaybackMachine",
+      "param": "--wayback",
+      "no_value": true
+    },
+    {
+      "name": "Update",
+      "param": "--update",
+      "no_value": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Masscan - Download",
+  "script_path": "git clone https://github.com/robertdavidgraham/masscan",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

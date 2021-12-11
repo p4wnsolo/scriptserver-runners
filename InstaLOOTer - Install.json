@@ -1,0 +1,9 @@
+{
+  "name": "InstaLooter - Install",
+  "script_path": "pip install --user instalooter --pre",
+  "working_directory": "~/script-server/scripts/InstaLooter",
+  "description": "<a href='https://github.com/althonos/InstaLooter'>InstaLooter Github</a>",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

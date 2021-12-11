@@ -1,0 +1,8 @@
+{
+  "name": "iKy - Download",
+  "script_path": "git clone https://gitlab.com/kennbroorg/iKy.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

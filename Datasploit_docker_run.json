@@ -1,0 +1,7 @@
+{
+  "name": "Datasploit docker run",
+  "script_path": "docker run -t appsecco/datasploit:1.0",
+  "working_directory": "Domain",
+  "group": "Domain",
+  "parameters": []
+}

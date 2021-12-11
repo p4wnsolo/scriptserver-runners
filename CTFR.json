@@ -1,0 +1,17 @@
+{
+  "name": "CTFR",
+  "script_path": "docker run -it ctfr",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/ctfr",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Domain",
+      "required": true,
+      "param": "-d",
+      "type": "text",
+      "default": "example.com",
+      "max_length": "254"
+    }
+  ]
+}

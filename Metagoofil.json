@@ -1,0 +1,26 @@
+{
+  "name": "Metagoofil",
+  "script_path": "python metagoofil.py",
+  "working_directory": "~/script-server/scripts/metagoofil",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Domain",
+      "param": "-d",
+      "same_arg_param": false,
+      "type": "text",
+      "default": "vulnscan.org"
+    },
+    {
+      "name": "Type",
+      "param": "-t",
+      "type": "multiselect",
+      "default": "doc",
+      "values": [
+        "doc",
+        "pdf"
+      ]
+    }
+  ]
+}

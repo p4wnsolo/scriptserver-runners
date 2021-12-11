@@ -1,0 +1,8 @@
+{
+  "name": "Reconspider (from P-SAK)",
+  "script_path": "docker run -it psak reconspider",
+  "working_directory": "~/script-server/scripts/P-SAK",
+  "group": "All In One OSINT Tools",
+  "output_format": "terminal",
+  "parameters": []
+}

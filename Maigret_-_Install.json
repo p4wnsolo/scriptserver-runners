@@ -1,0 +1,7 @@
+{
+  "name": "Maigret - Install",
+  "script_path": "docker build -t maigret .",
+  "working_directory": "~/script-server/scripts/maigret",
+  "group": "Install",
+  "parameters": []
+}

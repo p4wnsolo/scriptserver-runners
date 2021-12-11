@@ -1,0 +1,8 @@
+{
+  "name": "Osint-Framework",
+  "script_path": "docker run --rm -i -t -p 8080:8080 pierlo1/osint-framework",
+  "description": "Official Github page:  https://github.com/lockfale/OSINT-Framework\n\nBrowse to the following EXACT address after install (the IP addresses displayed by the Installer may not work):  \n\nhttp://localhost:8080",
+  "group": "All In One OSINT Tools",
+  "output_format": "terminal",
+  "parameters": []
+}

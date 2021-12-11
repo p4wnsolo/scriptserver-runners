@@ -1,0 +1,8 @@
+{
+  "name": "Hashcat-utils - Install",
+  "script_path": "make",
+  "working_directory": "~/script-server/scripts/hashcat-utils/src",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

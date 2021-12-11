@@ -1,0 +1,16 @@
+{
+  "name": "Commix (from P-SAK)",
+  "script_path": "docker run -it psak commix",
+  "working_directory": "~/script-server/scripts/P-SAK",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Wizard",
+      "required": true,
+      "param": "--wizard",
+      "type": "text",
+      "no_value": true
+    }
+  ]
+}

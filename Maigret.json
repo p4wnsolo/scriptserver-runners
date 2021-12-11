@@ -1,0 +1,16 @@
+{
+  "name": "Maigret",
+  "script_path": "docker run soxoj/maigret:latest",
+  "working_directory": "~/script-server/scripts",
+  "description": "Sherlock fork that gathers extra info",
+  "group": "Social",
+  "parameters": [
+    {
+      "name": "Username",
+      "required": true,
+      "type": "text",
+      "no_value": false,
+      "default": "justinbieber"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "InstaLoader - Install",
+  "script_path": "docker build -t docker-instaloader .",
+  "working_directory": "~/script-server/scripts/docker-instaloader",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

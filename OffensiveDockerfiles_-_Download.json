@@ -1,0 +1,8 @@
+{
+  "name": "OffensiveDockerfiles - Download",
+  "script_path": "git clone https://github.com/khast3x/Offensive-Dockerfiles",
+  "working_directory": "/home/kali/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

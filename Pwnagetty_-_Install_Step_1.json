@@ -1,0 +1,9 @@
+{
+  "name": "Pwnagetty - Install Step 1",
+  "script_path": "npm install",
+  "working_directory": "~/script-server/scripts/Pwnagetty",
+  "description": "You may need to run this command from terminal.\n\nCommand:\n\nnpm install\n\nIf it asks to install npm, say \"Y\" for Yes.",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

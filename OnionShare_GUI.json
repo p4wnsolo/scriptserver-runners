@@ -1,0 +1,7 @@
+{
+  "name": "OnionShare GUI",
+  "script_path": "onionshare-gui",
+  "group": "Tor",
+  "output_format": "terminal",
+  "parameters": []
+}

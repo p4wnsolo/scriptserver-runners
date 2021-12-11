@@ -1,0 +1,9 @@
+{
+  "name": "Homebrew",
+  "script_path": "/usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)\"",
+  "working_directory": "~/script-server/scripts",
+  "description": "Run this command in Terminal (requires Superuser access):\n<br>\n<code>sh -c \"$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)\"\n</code>\n\nTime to install:  Several minutes (to resolve deltas)\n\nHomebrew is a third-party package manager.  It allows you to quickly and easily install other programs.\n\nIMPORTANT:   After install, run these 2 commands in Terminal\n\necho 'eval \"$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\"' >> /home/kali/.zprofile\n\neval \"$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\"\n\nThen run this:\n\nbrew install gcc",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

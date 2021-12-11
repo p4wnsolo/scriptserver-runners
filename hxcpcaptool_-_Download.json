@@ -1,0 +1,9 @@
+{
+  "name": "hcxpcaptool - Download",
+  "script_path": "docker pull slorenz/hcxpcaptool",
+  "working_directory": "~/script-server/scripts",
+  "description": "Docker URL:  https://hub.docker.com/r/slorenz/hcxpcaptool\n\nAlso see:  https://github.com/ZerBea/hcxtools",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

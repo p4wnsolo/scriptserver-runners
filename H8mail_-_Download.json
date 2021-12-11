@@ -1,0 +1,8 @@
+{
+  "name": "H8mail - Download",
+  "script_path": "docker pull kh4st3x00/h8mail",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "InstaLoader - Download",
+  "script_path": "git clone https://github.com/di-dc/docker-instaloader",
+  "working_directory": "~/script-server/scripts/",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

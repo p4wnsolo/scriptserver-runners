@@ -1,0 +1,21 @@
+{
+  "name": "Kali Metapackages - Install",
+  "script_path": "apt install",
+  "description": "Official site for Kali metapackages:\nhttps://tools.kali.org/kali-metapackages\n\nRecommended:\n\nkali-tools-top10 (3.5 GB) -- *install me*  \u201cTop 10 Security Tools\u201d\nkali-tools-wireless (6.6 GB) -- *install me* penetration testing ",
+  "group": "System",
+  "parameters": [
+    {
+      "name": "Kali Metapackage Name",
+      "type": "list",
+      "default": "kali-linux-information-gathering",
+      "values": [
+        "kali-linux-information-gathering",
+        "kali-tools-passwords",
+        "kali-tools-wireless",
+        "kali-tools-social-engineering",
+        "kali-tools-802-11",
+        "kali-tools-top10"
+      ]
+    }
+  ]
+}

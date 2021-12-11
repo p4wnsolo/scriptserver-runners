@@ -1,0 +1,8 @@
+{
+  "name": "Masscan - Install",
+  "script_path": "make",
+  "working_directory": "~/script-server/scripts/masscan",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

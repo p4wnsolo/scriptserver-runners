@@ -1,0 +1,18 @@
+{
+  "name": "emailHarvester",
+  "script_path": "docker run -it emailharvester",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/emailHarvester",
+  "description": "Scan domain for emails",
+  "group": "Email",
+  "parameters": [
+    {
+      "name": "Domain",
+      "required": true,
+      "param": "-d",
+      "type": "text",
+      "default": "example.com",
+      "description": "Domain to be scanned",
+      "max_length": "255"
+    }
+  ]
+}

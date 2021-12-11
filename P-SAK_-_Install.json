@@ -1,0 +1,8 @@
+{
+  "name": "P-SAK - Install",
+  "script_path": "docker build -t psak .",
+  "working_directory": "~/script-server/scripts/P-SAK",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

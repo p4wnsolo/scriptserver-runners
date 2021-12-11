@@ -1,0 +1,8 @@
+{
+  "name": "nmap - Install",
+  "script_path": "docker build -t nmap .",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/nmap",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

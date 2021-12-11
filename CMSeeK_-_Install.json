@@ -1,0 +1,8 @@
+{
+  "name": "CMSeeK - Install",
+  "script_path": "docker build -t cmseek .",
+  "working_directory": "/home/kali/script-server/scripts/Offensive-Dockerfiles/CMSeeK",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

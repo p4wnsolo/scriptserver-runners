@@ -1,0 +1,8 @@
+{
+  "name": "Profil3r - Install",
+  "script_path": "python3 setup.py install",
+  "working_directory": "~/script-server/scripts/Profil3r-docker",
+  "description": "Github link : https://github.com/fabiodenaro/profil3r",
+  "group": "Install",
+  "parameters": []
+}

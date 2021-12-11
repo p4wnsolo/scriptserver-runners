@@ -1,0 +1,8 @@
+{
+  "name": "Hashcat-utils - Download",
+  "script_path": "git clone https://github.com/hashcat/hashcat-utils.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Profil3r",
+  "script_path": "python3 profil3r.py",
+  "working_directory": "~/script-server/scripts/profil3r",
+  "description": "Checks for email accounts given a username or possible parts of username.  Also permutates possible usernames given First name, Last name, or other given info",
+  "group": "Social",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Full username OR parts of username",
+      "required": true,
+      "param": "-p ",
+      "same_arg_param": true,
+      "type": "text",
+      "default": "john h doe",
+      "description": "Include or leave out first, middle, last name - Keep in mind people usually use FirstMLast@gmail.com - So johnfdoe is an example if First M Last are all known",
+      "max_length": "94"
+    }
+  ]
+}

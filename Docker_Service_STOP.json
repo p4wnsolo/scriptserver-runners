@@ -1,0 +1,8 @@
+{
+  "name": "Docker Service STOP",
+  "script_path": "sudo service docker stop",
+  "description": "Run as root.\n\nCommand:\n\nsudo service docker stop",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Infoga - Install",
+  "script_path": "docker build -t \"infoga:1\" .",
+  "working_directory": "~/script-server/scripts/Infoga",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

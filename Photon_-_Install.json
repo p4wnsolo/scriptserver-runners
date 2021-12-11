@@ -1,0 +1,7 @@
+{
+  "name": "Photon - Install",
+  "script_path": "docker build -t photon .",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/Photon",
+  "group": "Install",
+  "parameters": []
+}

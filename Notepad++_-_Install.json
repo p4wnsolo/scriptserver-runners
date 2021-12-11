@@ -1,0 +1,7 @@
+{
+  "name": "Notepad++ - Install",
+  "script_path": "sudo snap install notepad-plus-plus",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

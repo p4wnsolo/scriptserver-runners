@@ -1,0 +1,52 @@
+{
+  "name": "InstaLoader",
+  "script_path": "docker run -it docker-instaloader instaloader",
+  "working_directory": "~/script-server/scripts/docker-instaloader",
+  "description": "usage:\ninstaloader [--comments] [--geotags]\n            [--stories] [--highlights] [--tagged] [--igtv]\n            [--login YOUR-USERNAME] [--fast-update]\n            profile | \"#hashtag\" | %%location_id | :stories | :feed | :saved\ninstaloader --help",
+  "group": "Social",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Comments",
+      "param": "--comments",
+      "no_value": true
+    },
+    {
+      "name": "Geotags (requires login)",
+      "param": "--geotags",
+      "no_value": true
+    },
+    {
+      "name": "Stories",
+      "param": "--stories",
+      "no_value": true
+    },
+    {
+      "name": "Highlights",
+      "param": "--highlights",
+      "no_value": true
+    },
+    {
+      "name": "Tagged",
+      "param": "--tagged",
+      "no_value": true
+    },
+    {
+      "name": "IGTV",
+      "param": "--igtv",
+      "no_value": true
+    },
+    {
+      "name": "Fast update",
+      "param": "--fast-update",
+      "no_value": true
+    },
+    {
+      "name": "Username",
+      "same_arg_param": true,
+      "type": "text",
+      "default": "justinbieber",
+      "max_length": "254"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "PwnedOrNot - Install",
+  "script_path": "docker build -t pon .",
+  "working_directory": "~/script-server/scripts/pwnedOrNot",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

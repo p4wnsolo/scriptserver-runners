@@ -1,0 +1,8 @@
+{
+  "name": "Goohak - Download",
+  "script_path": "git clone https://github.com/1N3/Goohak.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

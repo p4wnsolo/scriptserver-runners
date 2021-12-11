@@ -1,0 +1,9 @@
+{
+  "name": "Mosint - Download",
+  "script_path": "git clone https://github.com/alpkeskin/mosint.git",
+  "working_directory": "~/script-server/scripts",
+  "description": "Mail OSINT:  https://github.com/alpkeskin/mosint",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

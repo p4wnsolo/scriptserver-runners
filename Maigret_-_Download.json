@@ -1,0 +1,7 @@
+{
+  "name": "Maigret - Download",
+  "script_path": "git clone https://github.com/soxoj/maigret",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "parameters": []
+}

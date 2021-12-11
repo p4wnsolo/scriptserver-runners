@@ -1,0 +1,8 @@
+{
+  "name": "Profil3r - Download",
+  "script_path": "git clone https://github.com/MrNonoss/Profil3r-docker",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

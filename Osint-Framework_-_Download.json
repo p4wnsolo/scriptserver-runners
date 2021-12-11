@@ -1,0 +1,7 @@
+{
+  "name": "Osint-Framework - Download",
+  "script_path": "docker pull pierlo1/osint-framework",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

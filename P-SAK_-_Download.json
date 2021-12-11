@@ -1,0 +1,9 @@
+{
+  "name": "P-SAK - Download",
+  "script_path": "git clone https://github.com/leoanggal1/P-SAK.git",
+  "working_directory": "~/script-server/scripts",
+  "description": "bash | nmap | john | msf | commix | reconspider | tcpdump | sqlmap | nikto | hydra | aircrack-ng | wfuzz ",
+  "group": "System",
+  "output_format": "terminal",
+  "parameters": []
+}

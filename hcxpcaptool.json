@@ -1,0 +1,15 @@
+{
+  "name": "hcxpcaptool",
+  "script_path": "docker run slorenz/hcxpcaptool:latest",
+  "working_directory": "~/script-server/scripts",
+  "group": "Passwords",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Parameters",
+      "same_arg_param": false,
+      "no_value": false,
+      "default": "-h"
+    }
+  ]
+}

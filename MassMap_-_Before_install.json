@@ -1,0 +1,8 @@
+{
+  "name": "MassMap - Before install",
+  "script_path": "chmod +x setup.sh",
+  "working_directory": "~/script-server/scripts/MassMap",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

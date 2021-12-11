@@ -1,0 +1,8 @@
+{
+  "name": "CTFR - Install",
+  "script_path": "docker build -t ctfr .",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/ctfr",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

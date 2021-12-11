@@ -1,0 +1,7 @@
+{
+  "name": "pwd",
+  "script_path": "pwd",
+  "description": "Print working directory",
+  "group": "System",
+  "parameters": []
+}

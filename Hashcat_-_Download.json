@@ -1,0 +1,8 @@
+{
+  "name": "Hashcat - Download",
+  "script_path": "docker pull dizcza/docker-hashcat",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

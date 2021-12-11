@@ -1,0 +1,7 @@
+{
+  "name": "Pacman - Install",
+  "script_path": "sudo apt-get install pacman",
+  "description": "Command:\n\nsudo apt-get install pacman",
+  "group": "System",
+  "parameters": []
+}

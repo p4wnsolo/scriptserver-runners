@@ -1,0 +1,15 @@
+{
+  "name": "Knock",
+  "script_path": "docker run -it nocommentlab/knock:5.0.0",
+  "working_directory": "~/script-server/scripts/",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Domain",
+      "same_arg_param": true,
+      "type": "text",
+      "default": "vulnscan.org"
+    }
+  ]
+}

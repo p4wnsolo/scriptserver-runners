@@ -1,0 +1,7 @@
+{
+  "name": "PwnedOrNot",
+  "script_path": "docker run -it pon python3 pwnedornot.py",
+  "group": "Email",
+  "output_format": "terminal",
+  "parameters": []
+}

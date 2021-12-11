@@ -1,0 +1,7 @@
+{
+  "name": "hcxtools - Install (with Brew)",
+  "script_path": "brew install hcxtools",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

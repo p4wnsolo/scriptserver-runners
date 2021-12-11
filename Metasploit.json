@@ -1,0 +1,8 @@
+{
+  "name": "Metasploit",
+  "script_path": "docker run -it psak msf",
+  "working_directory": "~/script-server/scripts/P-SAK",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": []
+}

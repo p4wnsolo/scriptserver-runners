@@ -1,0 +1,36 @@
+{
+  "name": "InstaLOOTer",
+  "script_path": "docker run -it stnly/instalooter instalooter",
+  "working_directory": "~/script-server/scripts",
+  "description": "Download Instagram posts (Videos and/or Photos)",
+  "group": "Social",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Username",
+      "required": true,
+      "param": "user",
+      "type": "text",
+      "default": "justinbieber"
+    },
+    {
+      "name": "Save to",
+      "required": true,
+      "same_arg_param": true,
+      "type": "text",
+      "default": "~/script-server/download"
+    },
+    {
+      "name": "File download limit",
+      "param": "-n",
+      "type": "int",
+      "default": "2",
+      "description": "Limits number of pictures and videos downloaded"
+    },
+    {
+      "name": "Get videos too",
+      "param": "--get-videos",
+      "no_value": true
+    }
+  ]
+}

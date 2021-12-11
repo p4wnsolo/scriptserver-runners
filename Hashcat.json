@@ -1,0 +1,30 @@
+{
+  "name": "Hashcat",
+  "script_path": "docker run -it dizcza/docker-hashcat hashcat",
+  "working_directory": "~/script-server/scripts",
+  "description": "https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-passwords-using-new-pmkid-hashcat-attack-0189379/",
+  "group": "Passwords",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Mode",
+      "param": "-m",
+      "type": "int",
+      "default": "16800",
+      "description": "Look up the mode with Hashcat's help function.",
+      "values": [
+        "-m"
+      ]
+    },
+    {
+      "name": "Filename to crack",
+      "same_arg_param": true,
+      "type": "text"
+    },
+    {
+      "name": "Parameters",
+      "param": "-a 0 --kernel-accel=1 -w 4 --force 'topwifipass.txt'",
+      "type": "text"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "OnionShare - Install",
+  "script_path": "sudo apt-get install onionshare",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

@@ -1,0 +1,7 @@
+{
+  "name": "emailHarvester - Install",
+  "script_path": "docker build -t emailharvester .",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/emailHarvester",
+  "group": "Install",
+  "parameters": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Rainbowcrack - Download",
+  "script_path": "git clone https://github.com/samba/rainbowcrack-docker.git",
+  "working_directory": "~/script-server/scripts",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

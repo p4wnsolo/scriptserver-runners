@@ -1,0 +1,8 @@
+{
+  "name": "Phoneinfoga - Install",
+  "script_path": "python3 -m pip install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/Phoneinfoga",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

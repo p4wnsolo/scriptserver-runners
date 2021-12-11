@@ -1,0 +1,8 @@
+{
+  "name": "Notepad++",
+  "script_path": "notepad-plus-plus",
+  "description": "Port of Notepad++ using Wine for Linux",
+  "group": "Util",
+  "output_format": "terminal",
+  "parameters": []
+}

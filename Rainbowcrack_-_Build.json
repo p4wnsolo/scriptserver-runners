@@ -1,0 +1,8 @@
+{
+  "name": "Rainbowcrack - Install",
+  "script_path": "docker build -t rainbowcrack .",
+  "working_directory": "~/script-server/scripts/rainbowcrack-docker",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}

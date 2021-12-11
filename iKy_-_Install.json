@@ -1,0 +1,7 @@
+{
+  "name": "iKy - Install",
+  "script_path": "python3 -m pip install -r requirements.txt",
+  "working_directory": "~/script-server/scripts/iKy",
+  "group": "Install",
+  "parameters": []
+}

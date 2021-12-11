@@ -1,0 +1,23 @@
+{
+  "name": "Phoneinfoga",
+  "script_path": "python3 phoneinfoga.py",
+  "working_directory": "~/script-server/scripts/Phoneinfoga",
+  "description": "Start the phoneinfoga web server",
+  "group": "Phone",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Phone Number",
+      "param": "-n",
+      "type": "int",
+      "default": "15551112222",
+      "min": "9999999999"
+    },
+    {
+      "name": "OSINT Scan",
+      "param": "--osint",
+      "type": "text",
+      "no_value": true
+    }
+  ]
+}

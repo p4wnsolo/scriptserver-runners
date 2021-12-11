@@ -1,0 +1,45 @@
+{
+  "name": "nmap",
+  "script_path": "docker run -it nmap",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/nmap",
+  "group": "Domain",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Spoof source address",
+      "param": "-S",
+      "type": "ip",
+      "no_value": false,
+      "description": "Spoof source address"
+    },
+    {
+      "name": "Verbose",
+      "param": "-v",
+      "no_value": true
+    },
+    {
+      "name": "Increase Debug",
+      "param": "-d",
+      "no_value": true
+    },
+    {
+      "name": "Only scan Open ports",
+      "param": "--open",
+      "same_arg_param": true,
+      "no_value": true
+    },
+    {
+      "name": "Detect OS, Version, Script, tracert",
+      "param": "-A",
+      "no_value": true,
+      "description": "Enable OS detection, version detection, script scanning, and traceroute"
+    },
+    {
+      "name": "Domain or URL to scan",
+      "same_arg_param": true,
+      "type": "text",
+      "default": "example.com",
+      "max_length": "255"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "HaveIBeenPwned - Install",
+  "script_path": "docker build -t hibp .",
+  "working_directory": "~/script-server/scripts/Offensive-Dockerfiles/hibp",
+  "description": "Installs hibp from the Offensive-Dockerfiles collection.",
+  "group": "Install",
+  "output_format": "terminal",
+  "parameters": []
+}
